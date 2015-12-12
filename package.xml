@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>uga_tum_ardrone</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>The uga_tum_ardrone package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag --> 
@@ -53,6 +53,9 @@
   <build_depend>message_generation</build_depend>
   <build_depend>roscpp</build_depend>
   <build_depend>rospy</build_depend>
+  <build_depend>opengl</build_depend>
+  <build_depend>glut</build_depend>
+  <build_depend>libblas-dev</build_depend>
   <run_depend>libqt4-dev</run_depend>
   <run_depend>atlas</run_depend>
   <run_depend>liblapack-dev</run_depend>
@@ -66,6 +69,9 @@
   <run_depend>message_runtime</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>rospy</run_depend>
+  <run_depend>opengl</run_depend>
+  <run_depend>glut</run_depend>
+  <run_depend>libblas-dev</run_depend>
   
 
 
